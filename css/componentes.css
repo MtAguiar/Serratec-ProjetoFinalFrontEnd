@@ -14,3 +14,16 @@ html{
     --yoshi-m: #70b921;
     --dark-yoshi-m: #50a00f;
 }
+.fases > .container{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-content: space-around;
+    gap:3%;
+}
+.fases > .container > img {
+    width: 300px;
+    border-radius: 20%;
+    margin-bottom: 3%;
+    border-radius: 4px solid --red-m;
+}
