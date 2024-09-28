@@ -14,3 +14,53 @@ html{
     --yoshi-m: #70b921;
     --dark-yoshi-m: #50a00f;
 }
+
+body {
+    margin: 5%;
+}
+
+.layout-cabecalho {
+    position: fixed;
+    top: 0;
+    width: 90%;
+    padding: 0;
+    background-color: var(--dark-gray-m); 
+    border: 1px solid var(--dark-red-m);
+    border-radius: 25px;
+    font-size: 200%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: left;
+    z-index: 1;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2.5%;
+}
+
+.menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menu li {
+    display: inline-block;
+}
+
+.menu__obj a {
+    color: var(--red-m);
+    text-decoration: none;
+}
+
+.menu__obj a:hover {
+    color: var(--dark-green);
+}
+
+.menu-logo {
+    width: 10%; 
+    margin: 0; 
+    padding-bottom: 0;
+}
