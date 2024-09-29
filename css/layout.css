@@ -15,21 +15,16 @@ html{
     --dark-yoshi-m: #50a00f;
 }
 
-body {
-    margin: 5%;
-}
-
 .layout-cabecalho {
     position: fixed;
-    top: 0;
-    width: 90%;
-    padding: 0;
-    background-color: var(--dark-gray-m); 
-    border: 1px solid var(--dark-red-m);
+    right: 0;
+    left: 0;
+    background-color: var(--red-m); 
+    border: 1px solid var(--dark-green);
     border-radius: 25px;
     font-size: 200%;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    text-align: left;
+    margin: 3%;
     z-index: 1;
 }
 
@@ -37,7 +32,6 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 2.5%;
 }
 
 .menu {
@@ -51,16 +45,16 @@ body {
 }
 
 .menu__obj a {
-    color: var(--red-m);
+    color: var(--gray-m);
     text-decoration: none;
 }
 
 .menu__obj a:hover {
-    color: var(--dark-green);
+    color: var(--gren-m);
 }
 
 .menu-logo {
-    width: 10%; 
+    width: 12%; 
     margin: 0; 
     padding-bottom: 0;
 }
