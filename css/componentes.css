@@ -15,6 +15,9 @@ html {
   --dark-yoshi-m: #50a00f;
   --shadow-m: #cec5c5;
 }
+.fases{
+  padding-top: 20%;
+}
 .fases > .container {
   display: flex;
   justify-content: space-around;
@@ -22,7 +25,7 @@ html {
   align-content: space-around;
   gap: 3%;
 }
-.container > img {
+.fases > .container > img {
   width: 300px;
   border-radius: 60px;
   margin-bottom: 3%;
