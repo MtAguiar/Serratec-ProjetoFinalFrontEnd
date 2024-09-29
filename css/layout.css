@@ -24,7 +24,7 @@ html{
     border-radius: 25px;
     font-size: 200%;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    margin: 3%;
+    margin: 1%;
     z-index: 1;
 }
 
@@ -54,7 +54,7 @@ html{
 }
 
 .menu-logo {
-    width: 12%; 
+    width: 100px; 
     margin: 0; 
     padding-bottom: 0;
 }
