@@ -14,3 +14,47 @@ html{
     --yoshi-m: #70b921;
     --dark-yoshi-m: #50a00f;
 }
+
+.layout-cabecalho {
+    position: fixed;
+    right: 0;
+    left: 0;
+    background-color: var(--red-m); 
+    border: 1px solid var(--dark-green);
+    border-radius: 25px;
+    font-size: 200%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 3%;
+    z-index: 1;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menu li {
+    display: inline-block;
+}
+
+.menu__obj a {
+    color: var(--gray-m);
+    text-decoration: none;
+}
+
+.menu__obj a:hover {
+    color: var(--gren-m);
+}
+
+.menu-logo {
+    width: 12%; 
+    margin: 0; 
+    padding-bottom: 0;
+}
