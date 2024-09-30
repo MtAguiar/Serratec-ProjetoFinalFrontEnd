@@ -15,3 +15,9 @@ html {
     --dark-yoshi-m: #50a00f;
     --shadow-m: #b1a9a9;
   }
+.layout-temp-titulo{
+  text-align: center;
+  font-size: 80px;
+  color:#426ac3;
+
+}
