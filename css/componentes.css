@@ -132,6 +132,7 @@ html {
 .botao-rede-social{
   border-radius: 30px;
   border: 1px solid var(--dark-red-m);
+  margin: 0 5px;
 }
 
 .instagram{
