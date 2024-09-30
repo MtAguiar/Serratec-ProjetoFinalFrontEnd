@@ -47,6 +47,58 @@ html {
   padding-bottom: 0;
 }
 
+.pre-registro {
+  padding: 160px 0 50px;
+  text-align: center;
+}
+
+.pre-registro_botao {
+  background-color: var(--red-m);
+  color: white;
+  width: 350px;
+  border-radius: 30px;
+  font-size: 1.2em;
+}
+
+.pre-registro_botao:hover {
+  background-color: var(--dark-red-m);
+}
+
+.pre-registro_formulario {
+  color: var(--red-m);
+  font-size: 1.1em;
+  background-color: white;
+  width: 500px;
+  margin: auto;
+  margin-top: 30px;
+  padding: 20px;
+  border: 2px solid var(--dark-gray-m);
+  border-radius: 30px;
+  display: none;
+}
+
+.pre-registro_formulario > label {
+  display: block;
+}
+
+.pre-registro_botao-enviar {
+  margin-top: 300px;
+  display: block;
+  margin: auto;
+}
+
+.formulario_item:not(:last-child){
+  margin-bottom: 10px;
+}
+
+.pre-registro_botao-enviar_container {
+  padding: 10px 0 10px;
+}
+
+.pre-registro_botao-enviar:hover {
+  background-color: var(--dark-gray-m);
+}
+
 .fases {
 }
 
@@ -67,11 +119,11 @@ html {
   justify-content: space-around;
   flex-wrap: wrap;
   align-content: space-around;
-  gap: 3%;
+  gap: 5%;
 }
 
 .fases > .container > img {
-  width: 300px;
+  width: 330px;
   border-radius: 60px;
   margin-bottom: 3%;
   border: 10px solid;
@@ -102,7 +154,6 @@ html {
 .img6 {
   --cor-borda-img: var(--gren-m);
 }
-
 .pre-registro {
   padding: 160px 0 50px;
   text-align: center;
