@@ -1,4 +1,4 @@
-html{
+html {
     --red-m: #e70112;
     --dark-red-m: #b20418;
     --blue-m: #30a3f9;
@@ -13,18 +13,5 @@ html{
     --dark-gray-m: #e2dddd;
     --yoshi-m: #70b921;
     --dark-yoshi-m: #50a00f;
-}
-
-.layout-cabecalho {
-    position: fixed;
-    right: 0;
-    left: 0;
-    background-color: var(--red-m); 
-    border: 1px solid var(--dark-green);
-    border-radius: 25px;
-    font-size: 200%;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    margin: 1%;
-    z-index: 1;
-}
-
+    --shadow-m: #b1a9a9;
+  }
