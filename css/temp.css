@@ -17,10 +17,14 @@ html {
 }
 .layout-temp > img {
   display: block;
-  margin: 0 auto;
+  margin: auto;
   width: 100%;
+  position: relative;
+  top: 135px;
 }
 .temp-card {
+  position: relative;
+  top: 135px;
   width: 500px;
   height: 750px;
   margin: 20px auto;
