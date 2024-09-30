@@ -16,8 +16,9 @@ html{
     --shadow-m: #cec5c5;
 }
 
-body{
-    margin: 0;
-    padding: 0;
-    background-color: var(--gray-m);
+body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--gray-m);
+  background-image: url(/img/background_site.jpg);
 }
