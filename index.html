@@ -3,57 +3,53 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="/css/layout.css" />
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
     <title>Document</title>
+    <link rel="stylesheet" href="/css/layout.css" />
+    <link rel="stylesheet" href="/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="/css/overrideBootstrap.css" />
+    <link rel="stylesheet" href="/css/base.css" />
+    <link rel="stylesheet" href="/css/layout.css" />
+    <link rel="stylesheet" href="/css/componentes.css" />
   </head>
-  <body>
-    <!-- <h1>Localizador</h1> -->
-    <!-- div total  -->
-    <div class="carrossel">
-      <!-- Radio Buttons -->
-      <div class="slides">
-        <input type="radio" class="radio1" />
-        <input type="radio" class="radio2" />
-        <input type="radio" class="radio3" />
-        <input type="radio" class="radio4" />
-        <!-- Fim Radio Buttons -->
-
-        <!-- Slide images -->
-
-        <div class="slide first">
-          <img src="./img/carrossel1.jpg" alt="Carrossel 1" />
+  <header class="layout-cabecalho">
+    <nav class="navbar">
+      <div class="container">
+        <div class="nav-menu">
+          <ul class="menu">
+            <li class="menu__obj"><a href="#home">Início</a></li>
+            <li class="menu__obj"><a href="#about">Sobre</a></li>
+            <li class="menu__obj"><a href="#contact">Contato</a></li>
+          </ul>
         </div>
-
-        <div class="slide">
-          <img src="./img/carrossel2.jpg" alt="Carrossel 2" />
-        </div>
-        <div class="slide">
-          <img src="./img/carrossel3.jpg" alt="Carrossel 3" />
-        </div>
-        <div class="slide">
-          <img src="./img/carrossel4.jpg" alt="Carrossel 4" />
-        </div>
-
-        <!-- Fim do Slide images -->
-
-        <!-- Navigation auto -->
-        <div class="navigation-auto">
-          <div class="auto-btn1"></div>
-          <div class="auto-btn2"></div>
-          <div class="auto-btn3"></div>
-          <div class="auto-btn4"></div>
-        </div>
+        <img src="/img/menu2.gif" alt="Menu" class="menu-logo" />
       </div>
+    </nav>
+  </header>
+  <body>
+    <main>
+      <section class="pre-registro">
+        <div class="container">
+          <button class="pre-registro_botao btn">Pré-registro</button>
+        </div>
+      </section>
 
-      <div class="manual-navigation">
-<label for="radio1" class="manual-btn">Radio 1</label>
-<label for="radio2" class="manual-btn">Radio 2</label>
-<label for="radio3" class="manual-btn">Radio 3</label>
-<label for="radio4" class="manual-btn">Radio 4</label>
-
-    </div>
-    </div>
-
-    <script src="script.js"></script>
+      <section class="fases">
+        <div class="fases_descricao">
+          <p>Varias fases para você jogar!</p>
+        </div>
+        <div class="container">
+          <img class="img1" src="img/fase1.png" alt="Fase do Mario 1" />
+          <img class="img2" src="img/fase2.png" alt="Fase do Mario 1" />
+          <img class="img3" src="img/fase3.png" alt="Fase do Mario 1" />
+          <img class="img4" src="img/fase4.png" alt="Fase do Mario 1" />
+          <img class="img5" src="img/fase5.png" alt="Fase do Mario 1" />
+          <img class="img6" src="img/fase6.png" alt="Fase do Mario 1" />
+        </div>
+      </section>
+    </main>
   </body>
 </html>
