@@ -9,9 +9,9 @@
     <link rel="stylesheet" href="/css/base.css" />
     <link rel="stylesheet" href="/css/layout.css" />
     <link rel="stylesheet" href="/css/componentes.css" />
+    <link rel=""
   </head>
   <body>
-
     <header class="layout-cabecalho">
       <nav class="navbar">
         <div class="container">
@@ -28,10 +28,27 @@
     </header>
 
     <main>
-
       <section class="pre-registro">
         <div class="container">
-          <button class="pre-registro_botao btn">Pré-registro</button>
+          <button class="pre-registro_botao btn" onclick="mostrarPreRegistro()">Pré-registro</button>
+        </div>
+
+        <div  id="formulario" class="pre-registro_formulario">
+          <label>Nome:</label>
+          <input type="text" name="nome" placeholder="insira seu nome" />
+          <label>e-mail:</label>
+          <input type="text" name="e-mail" placeholder="insira seu e-mail" />
+          <label>Pais:</label>
+          <select name="Pais">
+            <option name="Outros">Outros</option>
+            <option name="Alemanha">Alemanha</option>
+            <option name="Japão">Japão</option>
+            <option name="Brasil">Brasil</option>
+            <option name="EUA">EUA</option>
+          </select>
+          <div class="pre-registro_botao-enviar_container">
+            <button class="pre-registro_botao-enviar btn">ENVIAR</button>
+          </div>
         </div>
       </section>
 
@@ -48,8 +65,7 @@
           <img class="img6" src="img/fase6.png" alt="Fase do Mario 1" />
         </div>
       </section>
-
     </main>
-    
+    <script src="/js/pre-registro_Button.js"></script>
   </body>
 </html>

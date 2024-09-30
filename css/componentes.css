@@ -64,6 +64,36 @@ html {
   background-color: var(--dark-red-m);
 }
 
+.pre-registro_formulario {
+  color: var(--red-m);
+  font-size: 1.1em;
+  background-color: white;
+  width: 500px;
+  margin: auto;
+  margin-top: 30px;
+  padding: 20px;
+  border: 2px solid var(--dark-gray-m);
+  border-radius: 30px;
+  display: none;
+}
+
+.pre-registro_botao-enviar_container {
+  padding: 20px 0 10px;
+}
+
+.pre-registro_formulario > label {
+  display: block;
+}
+
+.pre-registro_botao-enviar {
+  margin-top: 300px;
+  display: block;
+  margin: auto;
+}
+
+.pre-registro_botao-enviar:hover {
+  background-color: var(--dark-gray-m);
+}
 
 .fases {
 }
