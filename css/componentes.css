@@ -154,3 +154,18 @@ html {
 .img6 {
   --cor-borda-img: var(--gren-m);
 }
+.pre-registro {
+  padding: 160px 0 50px;
+  text-align: center;
+}
+
+.pre-registro_botao {
+  background-color: var(--red-m);
+  color: white;
+  width: 350px;
+  border-radius: 30px;
+}
+
+.pre-registro_botao:hover {
+  background-color: var(--dark-red-m);
+}
