@@ -13,7 +13,7 @@ html {
   --dark-gray-m: #e2dddd;
   --yoshi-m: #70b921;
   --dark-yoshi-m: #50a00f;
-  --shadow-m: #cec5c5;
+  --shadow-m: #b1a9a9;
 }
 
 .navbar > .container {
@@ -50,6 +50,18 @@ html {
 .fases {
 }
 
+.fases_descricao {
+  font-size: 2em;
+  text-align: center;
+  margin: auto;
+  color: var(--dark-red-m);
+  background-color: var(--gray-m);
+  width: 500px;
+  margin-bottom: 30px;
+  border-radius: 30px;
+  box-shadow: 10px 10px 15px var(--shadow-m);
+}
+
 .fases > .container {
   display: flex;
   justify-content: space-around;
@@ -65,13 +77,6 @@ html {
   border: 10px solid;
   border-color: var(--cor-borda-img);
   box-shadow: 10px 10px 15px var(--shadow-m);
-}
-
-.fases_descricao {
-  font-size: 2em;
-  text-align: center;
-  color: var(--dark-red-m);
-  padding-bottom: 30px;
 }
 
 .img1 {
