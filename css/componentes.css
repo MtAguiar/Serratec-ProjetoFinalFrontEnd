@@ -79,16 +79,25 @@ html {
 }
 
 .img2 {
-  --cor-borda-img: var(--dark-peach);
+  --cor-borda-img: var(--blue-m);
 }
 
 .img3 {
-  --cor-borda-img: var(--dark-yellow-m);
+  --cor-borda-img: var(--dark-peach);
 }
 
 .img4 {
+  --cor-borda-img: var(--dark-yellow-m);
+}
+
+.img5 {
   --cor-borda-img: var(--blue-m);
 }
+
+.img6 {
+  --cor-borda-img: var(--gren-m);
+}
+
 
 .pre-registro {
   padding: 160px 0 50px;
@@ -98,6 +107,8 @@ html {
 .pre-registro_botao {
   background-color: var(--red-m);
   color: white;
+  width: 350px;
+  border-radius: 30px;
 }
 
 .pre-registro_botao:hover {
