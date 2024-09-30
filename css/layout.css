@@ -13,12 +13,14 @@ html{
     --dark-gray-m: #e2dddd;
     --yoshi-m: #70b921;
     --dark-yoshi-m: #50a00f;
+    --shadow-m: #cec5c5;
 }
 
 .layout-cabecalho {
     position: fixed;
     right: 0;
     left: 0;
+    box-shadow: 10px 10px 15px var(--shadow-m);
     background-color: var(--red-m); 
     border: 1px solid var(--dark-green);
     border-radius: 25px;
