@@ -119,3 +119,29 @@ html {
 .pre-registro_botao:hover {
   background-color: var(--dark-red-m);
 }
+
+.botoes_redes{
+  text-align: center;
+  padding: 10%;
+  font-size: 130%;
+}
+.botoes_redes > a {
+  text-decoration: none;
+}
+
+.botao-rede-social{
+  border-radius: 30px;
+  border: 1px solid var(--dark-red-m);
+}
+
+.instagram{
+  width: 30px;
+}
+
+.nintendo{
+  width: 30px;
+}
+
+.youtube{
+    width: 30px;
+}
