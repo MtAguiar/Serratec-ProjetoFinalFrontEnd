@@ -47,6 +47,24 @@ html {
   padding-bottom: 0;
 }
 
+.pre-registro {
+  padding: 160px 0 50px;
+  text-align: center;
+}
+
+.pre-registro_botao {
+  background-color: var(--red-m);
+  color: white;
+  width: 350px;
+  border-radius: 30px;
+  font-size: 1.2em;
+}
+
+.pre-registro_botao:hover {
+  background-color: var(--dark-red-m);
+}
+
+
 .fases {
 }
 
@@ -67,11 +85,11 @@ html {
   justify-content: space-around;
   flex-wrap: wrap;
   align-content: space-around;
-  gap: 3%;
+  gap: 5%;
 }
 
 .fases > .container > img {
-  width: 300px;
+  width: 330px;
   border-radius: 60px;
   margin-bottom: 3%;
   border: 10px solid;
@@ -101,21 +119,4 @@ html {
 
 .img6 {
   --cor-borda-img: var(--gren-m);
-}
-
-
-.pre-registro {
-  padding: 160px 0 50px;
-  text-align: center;
-}
-
-.pre-registro_botao {
-  background-color: var(--red-m);
-  color: white;
-  width: 350px;
-  border-radius: 30px;
-}
-
-.pre-registro_botao:hover {
-  background-color: var(--dark-red-m);
 }
