@@ -153,3 +153,4 @@ Acesso cada radio + o seletor + */
 #carrossel-radio4:checked ~ .carrossel-navigation-auto .carrossel-auto-btn4 {
   background-color: #fff;
 }
+

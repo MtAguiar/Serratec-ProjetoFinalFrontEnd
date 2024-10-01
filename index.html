@@ -10,6 +10,7 @@
     <title>Document</title>
     <link rel="stylesheet" href="/css/layout.css" />
     <link rel="stylesheet" href="/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="/css/bootstrap-grid.min.css" />
     <link rel="stylesheet" href="/css/overrideBootstrap.css" />
     <link rel="stylesheet" href="/css/base.css" />
     <link rel="stylesheet" href="/css/layout.css" />
@@ -75,7 +76,39 @@
     <main>
       <section class="pre-registro">
         <div class="container">
-          <button class="pre-registro_botao btn">Pré-registro</button>
+          <button class="pre-registro_botao btn" onclick="mostrarPreRegistro()">
+            Pré-registro
+          </button>
+        </div>
+
+        <div id="formulario" class="pre-registro_formulario">
+          <form method="post" class="form">
+            <div class="container">
+              <div class="row">
+                <div class="col-sm-12 formulario_item">
+                  <label>Nome:</label>
+                  <input type="text" name="nome" placeholder="insira seu nome"/>
+                </div>
+                <div class="col-12 formulario_item">
+                  <label>e-mail:</label>
+                  <input type="text" name="e-mail" placeholder="insira seu e-mail"/>
+                </div>
+                <div class="col-12 formulario_item">
+                  <label>Pais:</label>
+                  <select name="pais">
+                    <option value="Outro" name="Outros">Outros</option>
+                    <option value="Alemanha" name="Alemanha">Alemanha</option>
+                    <option value="Japão" name="Japão">Japão</option>
+                    <option value="Brasil" name="Brasil">Brasil</option>
+                    <option value="EUA" name="EUA">EUA</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+            <div class="pre-registro_botao-enviar_container">
+              <button class="pre-registro_botao-enviar btn">ENVIAR</button>
+            </div>
+          </form>
         </div>
       </section>
 
@@ -96,5 +129,6 @@
 
       <script src="/js/script.js"></script>
     </main>
+    <script src="/js/pre-registro.js"></script>
   </body>
 </html>
