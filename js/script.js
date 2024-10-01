@@ -15,3 +15,23 @@ function nextImage(){
     }
     document.getElementById("carrossel-radio"+count).checked = true;
 }
+// Função para passar o slide para a direita
+let currentSlide = 1;
+const totalSlides = 4; // Número total de imagens
+
+function nextSlide() {
+  currentSlide++;
+  if (currentSlide > totalSlides) {
+    currentSlide = 1;
+  }
+  document.getElementById('carrossel-radio' + currentSlide).checked = true;
+}
+
+// Função para passar o slide para a esquerda
+function prevSlide() {
+  currentSlide--;
+  if (currentSlide < 1) {
+    currentSlide = totalSlides;
+  }
+  document.getElementById('carrossel-radio' + currentSlide).checked = true;
+}
