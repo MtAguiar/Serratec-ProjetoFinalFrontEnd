@@ -210,6 +210,11 @@ html {
   bottom: 30px;
 }
 
+.up_botao > a{
+  scroll-behavior: smooth;
+}
+
 .up_botao > img{
   width: 100px;
+ 
 }
