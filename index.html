@@ -19,25 +19,32 @@
   <body>
     <header class="layout-cabecalho">
       <nav class="navbar">
-        <div class="nav-menu">
-          <ul class="menu">
-            <li class="menu__obj"><a href="#home">Início</a></li>
-            <li class="menu__obj"><a href="#about">Sobre</a></li>
-            <li class="menu__obj"><a href="#sns">Redes Sociais</a></li>
-          </ul>
-        </div>
-        <img src="/img/menu2.gif" alt="Menu" class="menu-logo" />
+          <div class="nav-menu">
+              <ul class="menu">
+                  <li class="menu__obj"><a href="#">Início</a></li>
+                  <li class="menu__obj"><a href="#about">Sobre</a></li>
+                  <li class="menu__obj"><a href="#sns">Redes Sociais</a></li>
+                  <li class="menu__obj"><a href="pages/characters.html">Personagens</a></li>
+              </ul>
+          </div>
+          <img src="/img/menu2.gif" alt="Menu" class="menu-logo" />
       </nav>
-    </header>
+  </header>
+
+    <button class="carrossel-btn esquerda" onclick="prevSlide()">
+      <img src="./img/Direita.png" alt="Ícone Esquerda">
+    </button>
 
     <div class="carrossel">
+
+
       <div class="carrossel-slides">
         <!-- Criando as "bolinhas" do radio -->
         <input type="radio" name="carrossel-radio-btn" id="carrossel-radio1" />
         <input type="radio" name="carrossel-radio-btn" id="carrossel-radio2" />
         <input type="radio" name="carrossel-radio-btn" id="carrossel-radio3" />
         <input type="radio" name="carrossel-radio-btn" id="carrossel-radio4" />
-<!-- Criado para receber as imagens em cada div respectiva -->
+        <!-- Criado para receber as imagens em cada div respectiva -->
         <div class="carrosel-imagem first">
           <img src="./img/carrossel1.jpg" alt="Carrossel 1" />
         </div>
@@ -46,12 +53,12 @@
           <img src="./img/carrossel2.jpg" alt="Carrossel 2" />
         </div>
         <div class="carrossel-imagem">
-          <img src="./img/carrossel3.jpg" alt="Carrossel 3" />
+          <img src="./img/carrossel3.jpg" alt="Carrossel 3"/>
         </div>
         <div class="carrossel-imagem">
           <img src="./img/carrossel4.jpg" alt="Carrossel 4" />
         </div>
-<!-- Criado para configurar como será feita a navegação automática -->
+        <!-- Criado para configurar como será feita a navegação automática -->
         <div class="carrossel-navigation-auto">
           <div class="carrossel-auto-btn1"></div>
           <div class="carrossel-auto-btn2"></div>
@@ -59,7 +66,8 @@
           <div class="carrossel-auto-btn4"></div>
         </div>
       </div>
-<!-- Criado para configurar como será feita a navegação manual -->
+
+      <!-- Criado para configurar como será feita a navegação manual -->
       <div class="carrossel-manual-navigation">
         <!-- Criando labels para referencias nos radios e atribuir funções -->
         <label for="carrossel-radio1" class="carrossel-manual-btn"></label>
@@ -68,6 +76,10 @@
         <label for="carrossel-radio4" class="carrossel-manual-btn"></label>
       </div>
     </div>
+
+    <button class="carrossel-btn direita" onclick="nextSlide()">
+      <img src="./img/Esquerda.png" alt="Ícone Direita">
+    </button>
 
     <main>
       <section class="pre-registro">
@@ -83,11 +95,19 @@
               <div class="row">
                 <div class="col-sm-12 formulario_item">
                   <label>Nome:</label>
-                  <input type="text" name="nome" placeholder="insira seu nome"/>
+                  <input
+                    type="text"
+                    name="nome"
+                    placeholder="insira seu nome"
+                  />
                 </div>
                 <div class="col-12 formulario_item">
                   <label>e-mail:</label>
-                  <input type="text" name="e-mail" placeholder="insira seu e-mail"/>
+                  <input
+                    type="text"
+                    name="e-mail"
+                    placeholder="insira seu e-mail"
+                  />
                 </div>
                 <div class="col-12 formulario_item">
                   <label>Pais:</label>
@@ -121,7 +141,9 @@
           <img class="img6" src="img/fase6.png" alt="Fase do Mario 1" />
         </div>
       </section>
-      
+
+    
+    
       <section id="sns" class="redes_sociais">
         <div class="botoes_redes">
           <a href="https://www.nintendo.com">
@@ -153,5 +175,6 @@
       <p class="rodape_copyhight">&copy grupo 2</p>
     </footer>
     <script src="/js/pre-registro.js"></script>
+      <script src="/js/script.js"></script>
   </body>
 </html>
