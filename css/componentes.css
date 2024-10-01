@@ -59,7 +59,7 @@ html {
   color: white;
   width: 350px;
   border-radius: 30px;
-  font-size: 1.2em;
+  font-size: 1.4em;
 }
 
 .pre-registro_botao:hover {
@@ -68,7 +68,7 @@ html {
 
 .pre-registro_formulario {
   color: var(--red-m);
-  font-size: 1.1em;
+  font-size: 1.4em;
   background-color: white;
   width: 500px;
   margin: auto;
@@ -78,7 +78,6 @@ html {
   border-radius: 30px;
   display: none;
 }
-
 .pre-registro_formulario > label {
   display: block;
 }
@@ -156,21 +155,6 @@ html {
 .img6 {
   --cor-borda-img: var(--gren-m);
 }
-.pre-registro {
-  padding: 160px 0 50px;
-  text-align: center;
-}
-
-.pre-registro_botao {
-  background-color: var(--red-m);
-  color: white;
-  width: 350px;
-  border-radius: 30px;
-}
-
-.pre-registro_botao:hover {
-  background-color: var(--dark-red-m);
-}
 
 .botoes_redes {
   text-align: center;
@@ -210,6 +194,11 @@ html {
   bottom: 30px;
 }
 
+.up_botao > a{
+  scroll-behavior: smooth;
+}
+
 .up_botao > img{
-  width: 100px;
+  width: 130px;
+ 
 }
