@@ -16,20 +16,21 @@ html {
   --shadow-m: #b1a9a9;
 }
 
-.navbar > .container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+.nav-menu {
+  display: inline-block;
 }
 
 .menu {
-  list-style: none;
-  padding: 0;
-  margin: 0;
+  margin: 0; 
+  padding: 0 20;
 }
 
 .menu li {
   display: inline-block;
+}
+
+.menu__obj {
+  margin-right: 15px;
 }
 
 .menu__obj a {
@@ -45,6 +46,7 @@ html {
   width: 100px;
   margin: 0;
   padding-bottom: 0;
+  float: right;
 }
 
 .pre-registro {
@@ -153,4 +155,47 @@ html {
 
 .img6 {
   --cor-borda-img: var(--gren-m);
+}
+.pre-registro {
+  padding: 160px 0 50px;
+  text-align: center;
+}
+
+.pre-registro_botao {
+  background-color: var(--red-m);
+  color: white;
+  width: 350px;
+  border-radius: 30px;
+}
+
+.pre-registro_botao:hover {
+  background-color: var(--dark-red-m);
+}
+
+.botoes_redes{
+  text-align: center;
+  padding: 10%;
+  font-size: 130%;
+}
+
+.botoes_redes > a {
+  text-decoration: none;
+}
+
+.botao-rede-social{
+  border-radius: 30px;
+  border: 1px solid var(--dark-red-m);
+  margin: 0 5px;
+}
+
+.instagram{
+  width: 30px;
+}
+
+.nintendo{
+  width: 30px;
+}
+
+.youtube{
+  width: 30px;
 }
