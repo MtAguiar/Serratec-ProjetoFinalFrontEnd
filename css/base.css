@@ -21,9 +21,9 @@ body {
   padding: 0;
   background-color: var(--gray-m);
   background-image: url(/img/background_site.jpg);
-  min-width: 1000px;
   font-family: "Dosis";
   font-weight: 600;
+  margin: auto;
 }
 
 @media (max-width: 900px){
