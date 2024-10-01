@@ -44,27 +44,9 @@ html{
   overflow: hidden;
 }
 
-
-.carrossel-btn {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  background: none;
-  border: none;
-  cursor: pointer;
-  padding: 0;
-}
-
 .carrossel-btn img {
   width: 100px; /* Ajuste o tamanho do ícone */
   height: auto;
-}
-.carrossel-btn.esquerda {
-  right:150px; /* Ajuste a posição do botão da esquerda */
-}
-
-.carrossel-btn.direita {
-  left: 150px; /* Ajuste a posição do botão da direita */
 }
 /* Estilizando div que engloba os radios e as imagens */
 .carrossel-slides {
