@@ -18,9 +18,10 @@ html{
 
 .layout-cabecalho {
     position: fixed;
+    top: 0;
     right: 0;
     left: 0;
-    box-shadow: 10px 10px 15px var(--shadow-m);
+    min-width: 700px;
     background-color: var(--red-m); 
     border: 1px solid var(--dark-green);
     border-radius: 25px;

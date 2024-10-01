@@ -1,0 +1,20 @@
+.personagem-grid {
+    display: grid;
+    gap: 20px;
+    padding: 20px;
+}
+
+.personagem {
+    text-align: center;
+    padding: 10px;
+}
+
+.personagem img {
+    width: 100px;
+    height: auto;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 150px;
+}

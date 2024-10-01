@@ -16,20 +16,21 @@ html {
   --shadow-m: #b1a9a9;
 }
 
-.navbar > .container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+.nav-menu {
+  display: inline-block;
 }
 
 .menu {
-  list-style: none;
-  padding: 0;
-  margin: 0;
+  margin: 0; 
+  padding: 0 20;
 }
 
 .menu li {
   display: inline-block;
+}
+
+.menu__obj {
+  margin-right: 15px;
 }
 
 .menu__obj a {
@@ -45,6 +46,7 @@ html {
   width: 100px;
   margin: 0;
   padding-bottom: 0;
+  float: right;
 }
 
 .fases {
@@ -125,6 +127,7 @@ html {
   padding: 10%;
   font-size: 130%;
 }
+
 .botoes_redes > a {
   text-decoration: none;
 }
@@ -144,5 +147,5 @@ html {
 }
 
 .youtube{
-    width: 30px;
+  width: 30px;
 }
