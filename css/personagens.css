@@ -1,0 +1,34 @@
+.h1 {
+    text-align: center;
+    margin-top: 0;
+    font-size: 2.5rem;
+}
+
+.layout-personagens {
+    text-align: center;
+    margin: 100px 0 0;
+}
+
+.personagens-banner {
+    max-width: 100%; 
+}
+
+.personagem-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    padding: 20px;
+}
+
+.personagem {
+    text-align: center;
+}
+
+.personagem > img {
+    width: 100px;
+    height: auto;
+    border: 2px dashed red;
+    border-radius: 35px;
+    background-color: green;
+    box-shadow: 0 4px 10px red;
+}
