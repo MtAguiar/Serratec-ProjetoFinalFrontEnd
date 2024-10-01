@@ -55,9 +55,9 @@ html {
 .descricaoJogo {
   width: 400px;
   height: 30px;
-  font-size: 23px;
+  font-size: 20px;
   font-weight: bold;
-  text-align: center;
+  text-align: justify;
   margin-top: 10px;
   margin-bottom: 20px;
 }
