@@ -48,6 +48,33 @@ html {
   padding-bottom: 0;
   float: right;
 }
+
+@media (max-width: 1024px) {
+  .carrossel {
+    width: 90%; /* Ocupar 90% da largura da tela */
+    height: auto; /* Ajusta a altura proporcionalmente */
+    border-radius: 40px; /* Raio de borda menor em telas menores */
+    top: 100px; /* Ajuste da posição */
+  }
+}
+
+@media (max-width: 768px) {
+  .carrossel {
+    width: 100%; /* Ocupar a largura completa da tela */
+    height: auto; /* Ajusta a altura automaticamente */
+    border-radius: 30px; /* Reduz o arredondamento */
+    top: 80px; /* Ajusta a posição superior */
+  }
+}
+
+@media (max-width: 480px) {
+  .carrossel {
+    width: 10%; /* Ocupar a largura total em telas pequenas */
+    height: auto;
+    border-radius: 20px; /* Raio de borda ainda menor */
+    top: 50px; /* Ajuste adicional na posição superior */
+  }
+}
 .carrossel {
   justify-content: center;
   position: relative;
@@ -63,6 +90,8 @@ html {
 .carrossel-btn img {
   width: 100px; /* Ajuste o tamanho do ícone */
   height: auto;
+  object-fit: cover;
+
 }
 /* Estilizando div que engloba os radios e as imagens */
 .carrossel-slides {
