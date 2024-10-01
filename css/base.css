@@ -22,16 +22,16 @@ body {
   background-color: var(--gray-m);
   background-image: url(/img/background_site.jpg);
   min-width: 1000px;
+  font-family: "Dosis";
+  font-weight: 600;
 }
 
-@media (max-width: 769px){
+@media (max-width: 900px){
   .layout-cabecalho{
-    width: 700px;
+    width: 800px;
+    line-height: 3;
   }
   .menu-logo {
     display: none;
-  }
-  .menu__obj {
-    display: block;
   }
 }
