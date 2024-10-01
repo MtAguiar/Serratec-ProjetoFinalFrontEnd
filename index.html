@@ -4,8 +4,6 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <title>Document</title>
     <link rel="stylesheet" href="/css/layout.css" />
@@ -15,29 +13,35 @@
     <link rel="stylesheet" href="/css/base.css" />
     <link rel="stylesheet" href="/css/layout.css" />
     <link rel="stylesheet" href="/css/componentes.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <header class="layout-cabecalho">
       <nav class="navbar">
-          <div class="nav-menu">
-              <ul class="menu">
-                  <li class="menu__obj"><a href="#">Início</a></li>
-                  <li class="menu__obj"><a href="#about">Sobre</a></li>
-                  <li class="menu__obj"><a href="#sns">Redes Sociais</a></li>
-                  <li class="menu__obj"><a href="pages/characters.html">Personagens</a></li>
-              </ul>
-          </div>
-          <img src="/img/menu2.gif" alt="Menu" class="menu-logo" />
+        <div class="nav-menu">
+          <ul class="menu">
+            <li class="menu__obj"><a href="#">Início</a></li>
+            <li class="menu__obj"><a href="/pages/about.html">Sobre</a></li>
+            <li class="menu__obj"><a href="#sns">Redes Sociais</a></li>
+            <li class="menu__obj">
+              <a href="pages/characters.html">Personagens</a>
+            </li>
+          </ul>
+        </div>
+        <img src="/img/menu2.gif" alt="Menu" class="menu-logo" />
       </nav>
-  </header>
+    </header>
 
     <button class="carrossel-btn esquerda" onclick="prevSlide()">
-      <img src="./img/Direita.png" alt="Ícone Esquerda">
+      <img src="./img/Direita.png" alt="Ícone Esquerda" />
     </button>
 
     <div class="carrossel">
-
-
       <div class="carrossel-slides">
         <!-- Criando as "bolinhas" do radio -->
         <input type="radio" name="carrossel-radio-btn" id="carrossel-radio1" />
@@ -53,7 +57,7 @@
           <img src="./img/carrossel2.jpg" alt="Carrossel 2" />
         </div>
         <div class="carrossel-imagem">
-          <img src="./img/carrossel3.jpg" alt="Carrossel 3"/>
+          <img src="./img/carrossel3.jpg" alt="Carrossel 3" />
         </div>
         <div class="carrossel-imagem">
           <img src="./img/carrossel4.jpg" alt="Carrossel 4" />
@@ -78,7 +82,7 @@
     </div>
 
     <button class="carrossel-btn direita" onclick="nextSlide()">
-      <img src="./img/Esquerda.png" alt="Ícone Direita">
+      <img src="./img/Esquerda.png" alt="Ícone Direita" />
     </button>
 
     <main>
@@ -142,39 +146,46 @@
         </div>
       </section>
 
-    
-    
       <section id="sns" class="redes_sociais">
         <div class="botoes_redes">
           <a href="https://www.nintendo.com">
-              <button class="btn botao-rede-social">
-                  <img src="/img/nintendo.png" alt="Logo Nintendo" class="nintendo">
-                  Nintendo
-              </button>
+            <button class="btn botao-rede-social">
+              <img
+                src="/img/nintendo.png"
+                alt="Logo Nintendo"
+                class="nintendo"
+              />
+              Nintendo
+            </button>
           </a>
           <a href="https://www.instagram.com">
-              <button class="btn botao-rede-social">
-                  <img src="/img/instagram.png" alt="Logo Instagram" class="instagram">
-                  Instagram
-              </button>
-              
+            <button class="btn botao-rede-social">
+              <img
+                src="/img/instagram.png"
+                alt="Logo Instagram"
+                class="instagram"
+              />
+              Instagram
+            </button>
           </a>
           <a href="https://www.youtube.com">
-              <button class="btn botao-rede-social">
-                  <img src="/img/youtube.png" alt="Logo Youtube" class="youtube">
-                  Youtube
-              </button>
+            <button class="btn botao-rede-social">
+              <img src="/img/youtube.png" alt="Logo Youtube" class="youtube" />
+              Youtube
+            </button>
           </a>
         </div>
       </section>
     </main>
     <div clas="layout_up">
-      <a class="up_botao" href="#"><img src="/img/up.png" alt="Mario apontando para cima"></a>
+      <a class="up_botao" href="#"
+        ><img src="/img/up.png" alt="Mario apontando para cima"
+      /></a>
     </div>
     <footer class="layout_rodape">
       <p class="rodape_copyhight">&copy grupo 2</p>
     </footer>
     <script src="/js/pre-registro.js"></script>
-      <script src="/js/script.js"></script>
+    <script src="/js/script.js"></script>
   </body>
 </html>
